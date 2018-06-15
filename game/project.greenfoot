@@ -1,0 +1,10 @@
+#Greenfoot properties
+#Fri Jun 15 14:26:56 PDT 2018
+version=3.0.0
+project.charset=UTF-8
+class.bg.superclass=greenfoot.World
+world.lastInstantiated=MyWorld
+mainWindow.y=40
+mainWindow.x=40
+mainWindow.width=850
+mainWindow.height=600
