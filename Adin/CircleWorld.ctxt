@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=CircleWorld
+comment1.params=
+comment1.target=CircleWorld()
+comment2.params=height\ centre
+comment2.target=void\ addVerticalWalls(int,\ int)
+comment3.params=random1\ random2\ centre
+comment3.target=void\ addVerticalWalls2(int,\ int,\ int)
+comment4.params=width\ centre
+comment4.target=void\ addHorizontalWalls(int,\ int)
+comment5.params=random3\ random4\ centre
+comment5.target=void\ addHorizontalWalls2(int,\ int,\ int)
+comment6.params=
+comment6.target=void\ act()
+comment7.params=b
+comment7.target=void\ applyFriction(BallConstructor)
+comment8.params=b
+comment8.target=boolean\ collideWalls(BallConstructor)
+comment9.params=x\ y\ xAlong\ yAlong
+comment9.target=double\ distAlong(double,\ double,\ double,\ double)
+numComments=10

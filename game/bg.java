@@ -8,8 +8,12 @@ public class bg extends World{
             super((int)(Toolkit.getDefaultToolkit().getScreenSize().getWidth()*0.8),
                   (int)(Toolkit.getDefaultToolkit().getScreenSize().getHeight()*0.8),1);
                 
-          addObject(new person(), (int)(screenWidth*0.7),(int)(screenHeight*0.5));
            //Debug
-          System.out.println("Debug: World Dimensiions = (" + getWidth()+","+ getHeight()+")");
+          System.out.println("Debug: World Dimensions = (" + getWidth()+","+ getHeight()+")");
+          
+           addObject(new person(), (int)(screenWidth*0.35),(int)(screenHeight*0.5));
+           addObject(new minigame(), (int)(screenWidth*0.85),(int)(screenHeight*0.5));
+         
         }
     }
+ 

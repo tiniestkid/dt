@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=pythonbetterthanjava
+comment1.params=
+comment1.target=pythonbetterthanjava()
+comment2.params=height\ centre
+comment2.target=void\ addVerticalWalls(int,\ int)
+comment3.params=width\ centre
+comment3.target=void\ addHorizontalWalls(int,\ int)
+comment4.params=
+comment4.target=void\ act()
+comment5.params=b
+comment5.target=void\ applyFriction(BallConstructor)
+comment6.params=b
+comment6.target=boolean\ collideWalls(BallConstructor)
+comment7.params=x\ y\ xAlong\ yAlong
+comment7.target=double\ distAlong(double,\ double,\ double,\ double)
+comment8.params=
+comment8.target=void\ prepare()
+comment8.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=9
