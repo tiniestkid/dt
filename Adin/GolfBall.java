@@ -13,7 +13,7 @@ public class GolfBall extends BallConstructor
         
         MouseInfo info = Greenfoot.getMouseInfo();
         
-        if (info != null && Greenfoot.mouseClicked(null))
+        if (info != null && Greenfoot.mouseClicked(null) && stopped())
         {
             double angle = Math.atan2(info.getY() - getY(), info.getX() - getX());
             double clubSpeed = -15;
