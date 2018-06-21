@@ -19,16 +19,16 @@ public class pythonbetterthanjava extends World
 
     private void addVerticalWalls(int height, int centre)
     {
-        addObject(new VerticalWall(20, height), 10, centre);
+        addObject(new VerticalWall(10, height), 10, centre);
 
-        addObject(new VerticalWall(20, height), 790, centre);  
+        addObject(new VerticalWall(10, height), 790, centre);  
     }
 
     private void addHorizontalWalls(int width, int centre)
     {
-        addObject(new HorizontalWall(width, 20), centre, 10);
+        addObject(new HorizontalWall(width, 10), centre, 10);
 
-        addObject(new HorizontalWall(width, 20), centre, 590);    
+        addObject(new HorizontalWall(width, 10), centre, 590);    
     }
 
     public void act()

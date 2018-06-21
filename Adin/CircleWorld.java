@@ -17,27 +17,27 @@ public class CircleWorld extends World
 
     private void addVerticalWalls(int height, int centre)
     {
-        addObject(new VerticalWall(10, height), 10, centre);
-        addObject(new VerticalWall(Greenfoot.getRandomNumber(440)+20, 20), 10, Greenfoot.getRandomNumber(440)+20);
-        addObject(new VerticalWall(10, height), 790, centre);
+        addObject(new VerticalWall(20, height), 10, centre);
+        addObject(new VerticalWall(Greenfoot.getRandomNumber(440)+20, 10), 10, Greenfoot.getRandomNumber(440)+20);
+        addObject(new VerticalWall(20, height), 790, centre);
     }
 
     private void addVerticalWalls2(int random1, int random2, int centre)
     {
-        addObject(new VerticalWall(10, random1), random2, centre); 	
+        addObject(new VerticalWall(20, random1), random2, centre); 	
     }
 
     private void addHorizontalWalls(int width, int centre)
     {
         
-        addObject(new HorizontalWall(width, 10), centre, 10);
-        addObject(new HorizontalWall(Greenfoot.getRandomNumber(440)+20, 20), centre, Greenfoot.getRandomNumber(440)+20);
-        addObject(new HorizontalWall(width, 10), centre, 590);    
+        addObject(new HorizontalWall(width, 20), centre, 10);
+        addObject(new HorizontalWall(Greenfoot.getRandomNumber(440)+20, 10), centre, Greenfoot.getRandomNumber(440)+20);
+        addObject(new HorizontalWall(width, 20), centre, 590);    
     }
 
     private void addHorizontalWalls2(int random3, int random4, int centre)
     {
-        addObject(new HorizontalWall(10, random3), random4, centre); 	
+        addObject(new HorizontalWall(20, random3), random4, centre); 	
     }
 
     public void act()
